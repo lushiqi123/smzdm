@@ -14,3 +14,10 @@ response = requsets.get('http://www.baidu.com', stream=True)
 可以通过 Response.close  或者  Response.content 关闭连接
 
 link:http://docs.python-requests.org/zh_CN/latest/user/advanced.html#body-content-workflow
+
+
+同步和异步:消息系统层面,
+blocking and non-blocking: 等待返回时是否挂起
+
+selector:
+handle: 
